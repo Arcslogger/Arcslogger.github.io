@@ -1,3 +1,9 @@
+/*
+* { <- applies to all elemnts
+    margin: 0; 
+    padding: 0; resets the default padding create by html
+}*/
+
 body { /* refers to the body tag in the html*/
 
     background-color: #f4f4f4; /*light grey*/
@@ -22,7 +28,22 @@ body { /* refers to the body tag in the html*/
 .box-1 {
     background-color: #333333;
     color: #ffffff;
+
+    border: 5px red solid;
+
+    /* short form for this:
     border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+
+    border-width: 3px; for adjusting width
+    border-bottom-width: 10px; for a justing a specific side's width
+    border-top-style: dotted; for boarder styles; can be generalized with same kind of syntax above
+    */
+
+    padding: 20px; /*use if all sides have a consistend amount of padding, follow general syntax above for padding on specific sides
+    
 }
 
 /*
