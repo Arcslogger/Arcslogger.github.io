@@ -39,11 +39,22 @@ body { /* refers to the body tag in the html*/
 
     border-width: 3px; for adjusting width
     border-bottom-width: 10px; for a justing a specific side's width
-    border-top-style: dotted; for boarder styles; can be generalized with same kind of syntax above
+    border-top-style: dotted; for border styles; can be generalized with same kind of syntax above
+    
+    the same can be done with margins and padding
     */
 
     padding: 20px; /*use if all sides have a consistend amount of padding, follow general syntax above for padding on specific sides*/
-    
+}
+
+.box-1 h1 { /*refers to the h1 heading in the box-1 class
+    font-family: Tahoma; /*changes font just for the title*/
+    font-weight: 800; /*boldness of font*/
+    font-style: italic; /*bold, italic, etc*/
+    text-decoration: underline; /*adds additional decorations; more can be searched up*/
+    text-transform: uppercase; /*makes the text all upper/lowercase*/
+    letter-spacing: 0.2em; /*spaces between characters*/
+    word-spacing: 1em; /*space between words*/
 }
 
 /*
