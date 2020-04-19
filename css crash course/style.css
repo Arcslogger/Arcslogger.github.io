@@ -45,6 +45,7 @@ body { /* refers to the body tag in the html*/
     */
 
     padding: 20px; /*use if all sides have a consistend amount of padding, follow general syntax above for padding on specific sides*/
+    margin: 20px 0;
 }
 
 .box-1 h1 { /*refers to the h1 heading in the box-1 class
@@ -55,6 +56,12 @@ body { /* refers to the body tag in the html*/
     text-transform: uppercase; /*makes the text all upper/lowercase*/
     letter-spacing: 0.2em; /*spaces between characters*/
     word-spacing: 1em; /*space between words*/
+}
+
+.box-2 {
+    border: 3px dotted #cccccc;
+    padding: 20px;
+    margin: 20px 0;
 }
 
 /*
