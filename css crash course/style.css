@@ -42,7 +42,7 @@ body { /* refers to the body tag in the html*/
     border-top-style: dotted; for boarder styles; can be generalized with same kind of syntax above
     */
 
-    padding: 20px; /*use if all sides have a consistend amount of padding, follow general syntax above for padding on specific sides
+    padding: 20px; /*use if all sides have a consistend amount of padding, follow general syntax above for padding on specific sides*/
     
 }
 
