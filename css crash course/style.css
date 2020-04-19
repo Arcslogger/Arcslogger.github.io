@@ -1,0 +1,48 @@
+body { /* refers to the body tag in the html*/
+
+    background-color: #f4f4f4; /*light grey*/
+    color: #555555; /*darker gray*/
+
+    font-family: Arial, Helvetica, sans-serif; /* web safe font families for more fonts*/
+    font-size: 16px;
+    font-weight: normal;
+
+    /*same as above*/
+    font: normal 16px Arial, Helvetica, sans-serif;
+
+    line-height: 1.6em; /* em is just a unit, px can also be used */
+
+}
+
+.container {
+    width: 80%; /* the width of the text box; using % instead of px auto makes is responsive to resizing */
+    margin: auto; /* auto margins will push the text box to the center*/
+}
+
+.box-1 {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/*
+CSS selectors:
+a { background-color: yellow; }
+
+a -> selector (in this case a = link)
+{ } declaration start and end
+bacground-color -> property
+: -> property/value separator
+yellow -> value
+; -> declaration separator
+*/
+
+/*
+Color names in css
+
+-Color names (red, etc)
+-Html 5 color names (coral, misty rose, etc)
+-Hexadecimal (# + code for golor)
+-RGB (rgb ( red, green, blue) )
+
+
+*/
