@@ -22,6 +22,7 @@ body { /* refers to the body tag in the html*/
 .box-1 {
     background-color: #333333;
     color: #ffffff;
+    border-right: 5px red solid;
 }
 
 /*
@@ -43,6 +44,4 @@ Color names in css
 -Html 5 color names (coral, misty rose, etc)
 -Hexadecimal (# + code for golor)
 -RGB (rgb ( red, green, blue) )
-
-
 */
