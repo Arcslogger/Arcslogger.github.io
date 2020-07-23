@@ -4,7 +4,7 @@
     margin: auto;
     margin-top: 40px;
 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #333333;
    
 }
@@ -72,13 +72,16 @@ nav {
     color: cornflowerblue; 
 }
 
+.social-menu {
+    margin-bottom: 10px;
+}
 .social-menu ul {
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 0;
-    margin: 500px 0 100px;
+    margin: 475px 0 100px;
     display: flex;
 }
 .social-menu ul li {
@@ -160,7 +163,7 @@ nav {
         left: 50%;
         transform: translate(-50%, -50%);
         padding: 0;
-        margin: 30px 0 50px;
+        margin: 100px 0 50px;
         display: flex;
     }
     .social-menu ul li {
@@ -171,6 +174,10 @@ nav {
 }
 
 @media only screen and (min-width: 1000px) {
+
+    .helloWorld {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
     .helloWorld h1 {
         font-size: 40px;
