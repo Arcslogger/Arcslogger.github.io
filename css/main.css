@@ -66,10 +66,12 @@ nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #1e1e1e;
     padding: 0 10px;
+    transition: 0.4s;
 }
 
 .menu ul li a:hover {
     color: cornflowerblue; 
+    transform:scale(1.2);
 }
 
 .social-menu {
@@ -79,7 +81,7 @@ nav {
 
 .social-menu ul {
     position: absolute;
-    top: 60%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 0;
@@ -211,7 +213,7 @@ nav {
 
     .social-menu ul {
         position: absolute;
-        top: 70%;
+        top: 90%;
         left: 50%;
         transform: translate(-50%, -50%);
         padding: 0;
