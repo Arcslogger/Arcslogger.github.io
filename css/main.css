@@ -104,12 +104,10 @@ nav {
     transition: .5s;
 }
 
-.social-menu ul li .fab:hover {
+.social-menu ul li a:hover i{
     color: #ffffff;
 }
-.social-menu ul li .fas:hover {
-    color: #ffffff;
-}
+
 .social-menu ul li a {
     position: relative;
     display: block;
@@ -125,16 +123,16 @@ nav {
 .social-menu ul li a:hover {
     transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
-.social-menu ul li:nth-child(1) a:hover {
+.artstation:hover {
     background-color: #13aff0;
 }
-.social-menu ul li:nth-child(2) a:hover {
+.instagram:hover {
     background-color: #e4405f;
 }
-.social-menu ul li:nth-child(3) a:hover {
+.github:hover {
     background-color: #0c112e;
 }
-.social-menu ul li:nth-child(4) a:hover {
+.dmoj:hover {
     background-color: #edb809;
 }
 
