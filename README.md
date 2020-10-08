@@ -1,4 +1,4 @@
 ## First website
-First time doing web development; misc. files from personal website and online coding
+Making a personal website in an attempt to learn web dev
 
 [Link](https://arcslogger.github.io/)
